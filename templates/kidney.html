@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kidney Predictor</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="../static/staticKidney/imagesKidney/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/staticKidney/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/staticKidney/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/staticKidney/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/staticKidney/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/staticKidney/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/staticKidney/css/util4.css">
+	<link rel="stylesheet" type="text/css" href="../static/staticKidney/css/main4.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<div class="contact1">
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="../static/staticKidney/imagesKidney/img4.jpg" alt="IMG">
+			</div>
+
+			<form class="contact1-form validate-form" action="/kidneypredict" method="POST">
+				<span class="contact1-form-title">
+					 Kidney Disease Predictor
+				</span>
+
+				<div class="wrap-input1 validate-input" data-validate = "Name is required">
+					<label for="bloodpressure">Blood Pressure</label>
+					<input class="input1" type="number" name="bloodpressure" id="bloodpressure" required="required" placeholder="Blood Pressure">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" >
+					<label for="specific_gravity">Specific Gravity</label>
+					<input class="input1" type="number" step="any" name="specific_gravity" id="specific_gravity" required="required" placeholder="Specific Gravity">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Subject is required">
+					<label for="albumin">Albumin</label>
+					<input class="input1" type="number" name="albumin" id="albumin" required="required" placeholder="Albumin">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Message is required">
+					<label for="sugar">Blood Sugar Level</label>
+					<input class="input1" type="number" name="sugar" id="sugar" required="required" placeholder="Blood Sugar Level">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Message is required">
+					<label for="rbc">Red Blood Cells Count</label>
+					<input class="input1" type="number" name="rbc" id="rbc" required="required" placeholder="Red Blood Cells Count">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Message is required">
+					<label for="pus_cell_count">Pus Cell Count</label>
+					<input class="input1" type="number" name="pus_cell_count" id="pus_cell_count" required="required" placeholder="Pus Cell Count">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Message is required">
+					<label for="pus_cell_clumps">Pus Cell Clumps</label>
+					<input class="input1" type="number" name="pus_cell_clumps" id="pus_cell_clumps" required="required" placeholder="Pus Cell Clumps">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="container-contact1-form-btn">
+					<button class="contact1-form-btn" onclick="kidney">
+						<span>
+							Predict
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="../static/staticKidney/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/staticKidney/vendor/bootstrap/js/popper.js"></script>
+	<script src="../static/staticKidney/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/staticKidney/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/staticKidney/vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+
+<!--===============================================================================================-->
+	<script src="../static/staticKidney/js/main.js"></script>
+
+</body>
+</html>

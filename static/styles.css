@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #d6cadd;
+  font-family: "Poppins", sans-serif;
+}
+
+nav a:hover {
+  border-bottom: black 1px solid;
+  color: black;
+  text-decoration: none;
+}
+
+nav {
+  margin-top: 3rem;
+}
+
+nav .home{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+nav .home:hover {
+  background-color: black;
+  color: white;
+}
+
+nav .about{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+nav .about:hover {
+  background-color: black;
+  color: white;
+}
+
+.heading {
+  font-size: 6vh;
+  font-weight: normal;
+}
+
+#top-section {	
+  height: 35rem;
+}
+
+#top-section p {
+  font-weight: lighter;
+}
+
+#top-section a {
+  border: 1px solid black;
+  width: 10rem;
+  border-radius: 20px;
+}
+
+#top-section a:hover {
+  background-color: black;
+  color: white;
+}
+
+#top-section .image img {
+  float: right;
+}
+
+#mid-section {
+  background-color: #fff7de;
+  height: 48rem;
+  padding: 2rem;
+}
+
+
+#mid-section .card {
+  border-radius:10px;
+  height:20rem;
+  width: 14rem;
+  box-shadow: 4px 4px 4px #e5e5e5;
+}
+
+#mid-section .btn {
+  color: black;
+  background-color: #ffeba9;
+  border: 1px solid rgba(0, 0, 0, 0.534);
+  border-radius: 20px;
+}
+#mid-section .card .card-title{
+  text-align:center;
+}
+#mid-section .diabetes{
+  width: 14rem;
+  height: 10.5rem;
+}
+#mid-section .heart{
+  width: 14rem;
+  height: 10.5rem;
+}
+#mid-section .kidney{
+  width: 14rem;
+  height: 10.5rem;
+}
+#mid-section .liver{
+  width: 14rem;
+  height: 10.5rem;
+}
+#mid-section .cataract{
+  width: 14rem;
+  height: 10.5rem;
+}
+#mid-section .pnemonia{
+  width: 14rem;
+  height: 10.5rem;
+}
+
+footer {
+  padding: 4rem;
+  background-color: #dde8f0;
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
