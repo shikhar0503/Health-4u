@@ -1,0 +1,12 @@
+app_new.py filter=lfs diff=lfs merge=lfs -text
+cataract.h5 filter=lfs diff=lfs merge=lfs -text
+static filter=lfs diff=lfs merge=lfs -text
+templates filter=lfs diff=lfs merge=lfs -text
+uploads filter=lfs diff=lfs merge=lfs -text
+Final_Kidney_model.pkl filter=lfs diff=lfs merge=lfs -text
+Final_liver_model.pkl filter=lfs diff=lfs merge=lfs -text
+Notebooks filter=lfs diff=lfs merge=lfs -text
+pneumonia.h5 filter=lfs diff=lfs merge=lfs -text
+Final_Diabetes_model.pkl filter=lfs diff=lfs merge=lfs -text
+Final_cancer_model.pkl filter=lfs diff=lfs merge=lfs -text
+final_model.pkl filter=lfs diff=lfs merge=lfs -text
