@@ -15,7 +15,7 @@
 
 ## Project :
 You can find our project/website by [Clicking Here!](https://arcane-garden-82331.herokuapp.com/) .
-
+<img src="Health-4u.gif" alt="Figure 1. Illustration of Health-4u website" >
 
 
 ## Disease Description
